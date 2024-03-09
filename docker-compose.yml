@@ -8,3 +8,5 @@ services:
     volumes:
       - .:/app
     container_name: django-web
+    ports:
+      - "127.0.0.1:8000:8000"
